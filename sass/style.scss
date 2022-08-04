@@ -6,7 +6,7 @@ $font-three: 'Uchen', serif;
 /* Splash */
 
 .splash {
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
     position: relative;
     text-align: center;
@@ -21,15 +21,16 @@ $font-three: 'Uchen', serif;
         border:none;
         padding: 20px 60px;
         margin-top: 30px;
+        text-decoration: none;
     }
 }
 
 .splash-inner {
     position: absolute;
     width: 100%;
-    top: 55%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%,-30%);
+    transform: translate(-50%, -30%);
 }
 
 .page-title {
@@ -37,6 +38,8 @@ $font-three: 'Uchen', serif;
     text-align: center;
     font-family: $font-three;
     font-size: 40px;
+    position: relative;
+    margin-bottom: -50px;
 }
 
 .page-subtitle {
@@ -77,6 +80,8 @@ h1 {
 h3 {
     color: gold;
     font-family: $font-one;
+    font-size: 32px;
+    margin: 0 auto;
 }
 
 /* Services */
